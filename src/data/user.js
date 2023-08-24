@@ -28,7 +28,7 @@ const INFO = {
 				"A portfolio website offers a unique opportunity to showcase my work and provide others with insights about myself. It serves as an 				evergreen platform for displaying your projects, case studies, and personal information.",
 			logo: "portfolio.png",
 			linkText: "View Project",
-			link: "https://github.com/kiranmajji015/My_Portfolio",
+			link: "https://portfolio-henna-ten-61.vercel.app/",
 		},
 		{
 			title: "Movie App",
@@ -62,7 +62,7 @@ const INFO = {
 				"Crafted a user-friendly interface that focuses on simplicity and ease of use. Incorporated a clean design with intuitive task input, categorization, and prioritization features, ensuring that users can seamlessly manage their tasks without a steep learning curve.",
 			logo: "todo.png",
 			linkText: "View Project",
-			link: "https://github.com/kiranmajji015/todolist",
+			link: "https://todolist-rho-mauve.vercel.app/",
 		},
 
 
