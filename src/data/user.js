@@ -9,6 +9,7 @@ const INFO = {
 	socials: {
 		github: "https://github.com/kiranmajji015",
 		linkedin: "https://www.linkedin.com/in/kiran-majji/",
+		call: "tel:+919491170838",
 		whatsapp: "https://api.whatsapp.com/send/?phone=919491170838&text&type=phone_number&app_absent=0",
 	},
 
@@ -18,63 +19,53 @@ const INFO = {
 			"I am a hardworking, honest individual, always willing to learn new skills. Quite friendly, helpful and polite, have a good sense of humor. To fulfill my object, I am outgoing and tactful and able to listen effectively when solving problems.",
 	},
 
-	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
+	
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Portfolio",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A portfolio website offers a unique opportunity to showcase my work and provide others with insights about myself. It serves as an 				evergreen platform for displaying your projects, case studies, and personal information.",
+			logo: "portfolio.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/kiranmajji015/My_Portfolio",
+		},
+		{
+			title: "Movie App",
+			description:
+				"The Movie app is an exceptionally convenient web application designed specifically for movie enthusiasts. With this user-friendly 					platform, users can effortlessly access comprehensive information about movies.",
+			logo: "movie.png",
+			linkText: "View Project",
+			link: "https://kiranmajji015.github.io/movieapp/",
 		},
 
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 
 		{
-			title: "Project 3",
+			title: "Songs Playlist",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"This exciting project entails the seamless organization of a music collection, where you have the power to curate and customize 					your own folders. With handy features like song addition, deletion, next song playback, and playlist creation.",
+			logo: "song.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/kiranmajji015/Songsplaylist",
+		},
+		{
+			title: "Password Generator",
+			description:
+				"Implemented a user-friendly interface allowing users to customize password attributes, including length, character types 							(uppercase, lowercase, numbers, symbols), and avoidance of ambiguous characters.",
+			logo: "password.png",
+			linkText: "View Project",
+			link: "https://github.com/kiranmajji015/passwordgenertor",
+		},
+		{
+			title: "To-Do List",
+			description:
+				"Crafted a user-friendly interface that focuses on simplicity and ease of use. Incorporated a clean design with intuitive task input, categorization, and prioritization features, ensuring that users can seamlessly manage their tasks without a steep learning curve.",
+			logo: "todo.png",
+			linkText: "View Project",
+			link: "https://github.com/kiranmajji015/todolist",
 		},
 
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
 	],
 };
 

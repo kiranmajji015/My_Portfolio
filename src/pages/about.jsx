@@ -37,41 +37,16 @@ const About = () => {
 							<Logo width={46} />
 						</div>
 					</div>
-
-					<div className="about-container">
-						<div className="about-main">
-							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
-								</div>
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
-								</div>
-							</div>
-
-							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src="about.jpg"
-											alt="about"
-											className="about-image"
-										/>
-									</div>
-								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
-							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
-						</div>
+					<div className="mail-container">
+						<h1 className="skillsection">Skills & Tools</h1>
 					</div>
-					<div className="page-footer">
-						<Footer />
+					<div className="incontainer">
+						<img className="imgs" src="html.png" height={80} width={80} alt="" />
+						<img className="imgs" src="css.png" height={80} width={80} alt="" />
+						<img className="imgs" src="js.png" height={80} width={80} alt="" />
+						<img className="imgs" src="react.png" height={80} width={80} alt="" />
+						<img className="imgs" src="java.png" height={80} width={80} alt="" />
+						<img className="imgs" src="vscode.png" height={80} width={80} alt="" />
 					</div>
 				</div>
 			</div>

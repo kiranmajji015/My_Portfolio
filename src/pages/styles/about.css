@@ -13,105 +13,53 @@
 	top: 4vh;
 }
 
-.about-container {
+.mail-container {
 	display: flex;
-	flex-direction: column;
+	justify-content: center;
 	height: 100%;
-	margin: 0;
-	padding-top: 120px;
+	margin-top: 6rem;
+
 }
 
-.about-main {
-	display: flex;
+.skillsection {
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 900;
+	padding: .6rem 5rem;
+	background-color: #f4d150;
+	box-shadow: 2px 8px 22px rgb(192, 192, 192);
+	border-radius: 2rem;
+}
+.incontainer
+{
+	display: grid;
+	justify-content: center;
+	margin: 7rem auto;
+	width: 70%;
+	grid-template-columns: repeat(3, auto);
+	/* border: 2px solid green; */
+	grid-gap: 4rem;
+	
 }
 
-.about-right-side {
-	flex-basis: 900px;
+.imgs
+{
+	cursor: pointer;
+	border: 5px solid white;
 }
-
-.about-title {
-	width: 100% !important;
+.imgs:hover
+{
+	border: none;
+	box-shadow: 12px 12px 22px gray;
+	transition: 800ms;
 }
-
-.about-subtitle {
-	width: 80% !important;
-}
-
-.about-left-side {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 300px;
-}
-
-.about-image-container {
-	width: 370px;
-}
-
-.about-image-wrapper {
-	display: inline-block;
-	overflow: hidden;
-	width: 100%;
-	border-radius: 10%;
-	transform: rotate(3deg);
-}
-
-.about-image-wrapper img {
-	display: block;
-	width: 100%;
-}
-
-.about-socials {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.about-socials-mobile {
-	display: none;
-}
-
-@media (max-width: 1024px) {
-	.about-logo {
-		z-index: 100;
-	}
-
-	.about-main {
-		flex-direction: column;
-	}
-
-	.about-subtitle {
-		padding-top: 20px !important;
-	}
-
-	.about-left-side {
-		flex-basis: 100%;
-		order: 1;
-	}
-
-	.about-right-side {
-		flex-basis: 100%;
-		order: 2;
-	}
-
-	.about-image-container {
-		padding-bottom: 40px;
-	}
-
-	.about-socials {
-		display: none;
-	}
-
-	.about-socials-mobile {
-		padding-top: 30px;
-		display: flex;
-	}
-}
-
 @media (max-width: 600px) {
-	.about-container {
-		padding-top: 60px;
+	.incontainer {
+		grid-template-columns: repeat(2, auto);
 	}
-
-	.about-image-container {
-		width: 80%;
+	.skillsection{
+		padding: 1rem 1rem;
 	}
 }
+

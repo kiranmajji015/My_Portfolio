@@ -25,6 +25,8 @@
 
 .homepage-title {
 	width: 85% !important;
+	display: flex;
+	flex-direction: column;
 }
 
 .homepage-subtitle {
@@ -37,8 +39,8 @@
 }
 
 .homepage-image-container {
-	width: 370px;
-	height: 370px;
+	width: 400px;
+	height: 400px;
 }
 
 .homepage-image-wrapper {
@@ -56,6 +58,7 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 30px;
+	margin-bottom: 5rem;
 }
 
 .homepage-social-icon {
@@ -91,6 +94,10 @@
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+}
+h2,h3{
+	padding: 0px;
+	margin: 1rem 0px;
 }
 
 @media (max-width: 1024px) {
