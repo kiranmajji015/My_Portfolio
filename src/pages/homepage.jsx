@@ -51,15 +51,7 @@ const Homepage = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "home");
 
-	const logoStyle = {
-		display: "flex",
-		position: stayLogo ? "fixed" : "relative",
-		top: stayLogo ? "3vh" : "auto",
-		zIndex: 999,
-		border: stayLogo ? "1px solid white" : "none",
-		borderRadius: stayLogo ? "50%" : "none",
-		boxShadow: stayLogo ? "0px 4px 10px rgba(0, 0, 0, 0.25)" : "none",
-	};
+
 
 	return (
 		<React.Fragment>
@@ -102,7 +94,17 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-
+						<div className="resume">
+							{/* <button href={INFO.socials.resume} className="bresume">Resume</button> */}
+							<a
+								href={INFO.socials.resume}
+								target="_blank"
+								rel="noreferrer"
+								className="bresume"
+							>
+								Resume
+							</a>
+						</div>
 						<div className="homepage-socials">
 
 							<a
@@ -126,7 +128,7 @@ const Homepage = () => {
 								/>
 							</a>
 
-							
+
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"

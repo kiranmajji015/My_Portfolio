@@ -100,6 +100,38 @@ h2,h3{
 	margin: 1rem 0px;
 }
 
+.bresume
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	width: fit-content;
+	text-decoration: none;
+	color: black;
+	border-color: #f4d150;
+	box-shadow: 1px 1px 8px black;
+	background-color: #f4d150;
+	padding: 0.8rem 3rem;
+	border-radius: 2rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+.bresume:hover
+{
+	color: #f4d150;
+	background-color: white;
+	border-color: black;
+	box-shadow: 1px 1px 8px #f4d150;
+	transition: 300ms;
+}
+
+
+
+
+
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;

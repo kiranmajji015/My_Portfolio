@@ -11,6 +11,7 @@ const INFO = {
 		linkedin: "https://www.linkedin.com/in/kiran-majji/",
 		call: "tel:+919491170838",
 		whatsapp: "https://api.whatsapp.com/send/?phone=919491170838&text&type=phone_number&app_absent=0",
+		resume: "resume.pdf"
 	},
 
 	homepage: {
