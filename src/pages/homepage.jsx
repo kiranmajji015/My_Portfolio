@@ -97,10 +97,10 @@ const Homepage = () => {
 						<div className="resume">
 							{/* <button href={INFO.socials.resume} className="bresume">Resume</button> */}
 							<a
-								className="bresume"
 								href={INFO.socials.resume}
 								target="_blank"
 								rel="noreferrer"
+								className="bresume"
 							>
 								Resume
 							</a>
